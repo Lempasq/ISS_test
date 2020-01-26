@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://lempasq:dimon13rayon@lemcluster-ggm4g.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwToken": "mySecretToken0236"
+}
