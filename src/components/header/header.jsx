@@ -46,7 +46,7 @@ export default () => {
                 .split(' ')
                 .splice(1,4)
                 .join(' '))
-            , 60000)
+            , 5000)
     }, [curDate])
 
     if ((longitude && latitude) && (mapLoaded === undefined)) renderMap()
