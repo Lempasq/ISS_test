@@ -32,7 +32,7 @@ export default () => {
 
             let getAstros = await fetch(`http://api.open-notify.org/astros.json`)
             let astrosToStr = await getAstros.json();
-            setAstros(astrosToStr['people'])
+            setAstros(astrosToStr['people'].filter(el => el.craft === 'ISS'))
         }
         setTimeout(() => setMapLoaded(!mapLoaded), 5000)
 
